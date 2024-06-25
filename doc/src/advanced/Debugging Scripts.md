@@ -31,11 +31,11 @@ To list all available commands, type h and enter. We won't talk about all of the
 * a: abort execution (more graceful version of ctrl+c)
 
 ## registered debugging functions
-If you are working with a troublesome bit of code, you may find that breaking into the debugger at a specific point is a very helpful thing to do. For this situation, NVGT has the debug_break() function.
+If you are working with a troublesome bit of code, you may find that breaking into the debugger at a specific point is a very helpful thing to do. For this situation, NVGT has the `debug_break()` function.
 
 This function will do nothing if called without a debugger attached or from a compiled binary, so it is OK to leave some calls to this around in your application so long as you are aware of them for when you run your script with the debugger. This function will immediately halt the execution of your script and cause the debugger interpreter to appear.
 
-You can also programatically add file and function breakpoints with the functions void debug_add_file_breakpoint(string filename, int line_number) and void debug_add_func_breakpoint(string function_name).
+You can also programatically add file and function breakpoints with the functions `void debug_add_file_breakpoint(string filename, int line_number)` and `void debug_add_func_breakpoint(string function_name)`.
 
 ## breakpoints
 To describe breakpoints, we'll break (pun intended) the word into it's 2 parts and describe what the words mean in this context.
