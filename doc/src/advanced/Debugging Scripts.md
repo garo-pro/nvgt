@@ -9,7 +9,7 @@ There is a command line argument you must pass to nvgt.exe along with the script
 So for example, open a command prompt or terminal and change directory to the place where you have stored your game. You could then run, for example, `nvgt -d mygame.nvgt` assuming a correct installation of nvgt, which would cause mygame.nvgt to be launched with the Angelscript debugger getting initialized.
 
 ## the debugging interpreter
-When you run a script with the debugger, it will not start immedietly. Instead, you will be informed that debugging is in progress, that the system is waiting for commands, and that you can type h for help.
+When you run a script with the debugger, it will not start immediately. Instead, you will be informed that debugging is in progress, that the system is waiting for commands, and that you can type h for help.
 
 If the last line on your terminal is \[dbg\]\> , you can be sure that the system is waiting for a debug command.
 
