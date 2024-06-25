@@ -12,7 +12,7 @@ bool: true if the track was able to start playing, false otherwise.
 ## Remarks:
 Music tracks are specified using a very simple string format ("filename; flag; flag; option1=value; option2=value; flag; option3=value...").
 
-Options are deliminated by "; " excluding quotes. The only required setting is the track's main filename, which must be the first option provided. It does not matter in what order any other options or flags are set, the only rule is that the track's configuration string must start with it's main filename.
+Options are delimited by "; " excluding quotes. The only required setting is the track's main filename, which must be the first option provided. It does not matter in what order any other options or flags are set, the only rule is that the track's configuration string must start with it's main filename.
 
 The difference between a flag and an option is that a flag is usually just a simple switch E. "stinger; ", while an option usually consists of a key/value pair e. "startpos=2.9"
 

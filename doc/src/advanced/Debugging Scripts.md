@@ -13,7 +13,7 @@ When you run a script with the debugger, it will not start immediately. Instead,
 
 If the last line on your terminal is \[dbg\]\> , you can be sure that the system is waiting for a debug command.
 
-If you press enter here without first typing a command, the last major debugger action is repeated. This is not nesessarily the last command you have typed, but is instead the last major action (continue, step into, step over, step out). The default action is to continue, meaning that unless you have changed the debugger  action, pressing enter without typing a command will simply cause the execution of your script to either begin or resume where it left off.
+If you press enter here without first typing a command, the last major debugger action is repeated. This is not necessarily the last command you have typed, but is instead the last major action (continue, step into, step over, step out). The default action is to continue, meaning that unless you have changed the debugger  action, pressing enter without typing a command will simply cause the execution of your script to either begin or resume where it left off.
 
 Pressing ctrl+c while the debug interpreter is open will exit out of nvgt completely similar to how it works if the debugger is not attached. Pressing this keystroke while the interpreter is not active will perform a user break into the debugger, meaning that your script will immediately stop executing and the debug interpreter will appear.
 
@@ -35,7 +35,7 @@ If you are working with a troublesome bit of code, you may find that breaking in
 
 This function will do nothing if called without a debugger attached or from a compiled binary, so it is OK to leave some calls to this around in your application so long as you are aware of them for when you run your script with the debugger. This function will immediately halt the execution of your script and cause the debugger interpreter to appear.
 
-You can also programatically add file and function breakpoints with the functions `void debug_add_file_breakpoint(string filename, int line_number)` and `void debug_add_func_breakpoint(string function_name)`.
+You can also programmatically add file and function breakpoints with the functions `void debug_add_file_breakpoint(string filename, int line_number)` and `void debug_add_func_breakpoint(string function_name)`.
 
 ## breakpoints
 To describe breakpoints, we'll break (pun intended) the word into it's 2 parts and describe what the words mean in this context.
