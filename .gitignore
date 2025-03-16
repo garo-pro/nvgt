@@ -30,6 +30,8 @@ release/lib/3rd_party_licenses.html
 release/lib_*
 
 # private user space and dependencies
+user/**
+!user/readme.md
 jni/Custom.mk
 droidev
 iosdev
