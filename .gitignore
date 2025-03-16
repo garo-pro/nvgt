@@ -31,7 +31,6 @@ release/lib_*
 
 # private user space and dependencies
 user/**
-!user/readme.md
 jni/Custom.mk
 droidev
 iosdev
